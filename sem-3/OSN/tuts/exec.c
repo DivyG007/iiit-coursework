@@ -20,7 +20,7 @@ int main() {
         char *str[2];
         str[0] = strdup("sample2.txt");
         str[1] = NULL;
-        myargs[3] = NULL;
+        myargs[2] = NULL;
         execvp(myargs[0], myargs);
         printf("There was an error. \n");
         return(1);
